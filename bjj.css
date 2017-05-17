@@ -1,0 +1,133 @@
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: helvetica, arial, sans-serif;
+	background-color:#f9e198;
+}
+p {
+	font-size: 20px;
+	font: arial;
+}
+a {
+	text-decoration: none;
+	color: #3a3a38;
+	color: black;
+}
+a:hover {
+	color: grey;
+}
+#bodyWrapper {
+	}
+.banner {
+	height: 300px;
+	width: 100%;
+	display: block;
+}
+.banner > .banner-img {
+	height:300px;
+	width: 100%;
+	display: block;
+}
+.txtwrap {
+	
+	float: right;
+	width: 450px;
+	height: 400px;
+	display: inline;
+	top: -500px;
+
+}
+.txtwrap > p {
+	text-align: left;
+	float: right;
+	display: inline;
+	height: 600px;
+	width: 400px;
+	position: relative;
+
+}
+.txtwrap > img {
+	display: inline;
+}
+.txtwrap > h1 {
+	position: relative;
+	left: 50%;
+}
+
+.titlewrapOne {
+
+}
+.titlewrapOne > h1 {
+
+}
+.nogiImg {
+	position: relative;
+	
+	display: inline;
+}
+.images {
+	margin-left: 10px;
+	border-radius: 5px;
+	max-width:100%;
+
+}
+#secondImg {
+	height:400px;
+	width:400px;
+}
+#thirdImg {
+
+}
+
+#wrapOne {
+	width: 100%;
+	height: 600px;
+	border: 2px solid black;
+	background-color:#fff4d3;
+	max-width:100%;
+
+}
+#wrapTwo {
+	width: 100%;
+	height: 600px;
+	border: 2px solid black;
+	background-color:#fff4d3;
+	max-width:100%;
+}
+#wrapThree {
+	width: 100%;
+	height: 600px;
+	border: 2px solid black;
+	background-color:#fff4d3;
+	max-width:100%;
+}
+
+.titles {
+	position: relative;
+	left: 45%;
+	text-decoration: underline;
+	padding-bottom: 10px;
+	color: black;
+}
+#thirdTitle {
+	position: relative;
+	left: 30%;
+}
+@media only screen and (max-width:500px) {
+		.images{
+			width: 100%;
+			
+		}
+		 p {
+		 	font-size: 15px;
+		 	margin-left: 25px;
+		}
+		.titles {
+			position: relative;
+			right: 50px;
+			margin: 0 auto;
+		}
+		
+}
+
+}
